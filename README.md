@@ -58,9 +58,31 @@ o After finishing, click File > Exit to close Eclipse IDE.
 
 ## PROGRAM:
 
+~~~
+ public class SeparateOddEven {
+    public static void main(String[] args) {
+        int[] numbers = {12, 45, 23, 56, 89, 34, 67, 90, 11, 22}; // Example array
+        System.out.print("Even Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 == 0) {
+                System.out.print(num + " ");
+            }
+        }
+        System.out.println(); // For a new line
+        System.out.print("Odd Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 != 0) {
+                System.out.print(num + " ");
+            }
+        }
+    }
+ }
+
+~~~
+
 ## OUTPUT:
 
-
-
+<img width="1325" height="631" alt="image" src="https://github.com/user-attachments/assets/16d8ebd4-d4d8-4b9b-8036-8aedd4d8727f" />
 
 ## RESULT:
+Thus the given experiment JAVA-PROGRAM-TO-PRINT-ODD-AND-EVEN-NUMBERS-IN-AN-ARRAY will be sucessfully completed by using the Eclipse software.
